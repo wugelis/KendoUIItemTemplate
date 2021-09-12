@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>EasyArchitectGridUI</Name>
+    <Description>EasyArchitectGridUI</Description>
+    <Icon>EasyArchitectGridUI.ico</Icon>
+    <TemplateID>06f19a4a-8f02-41d3-a0cf-2f84a33894e0</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MyIndex.cshtml</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">MyIndex.cshtml</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>MyItemTemplateVSIX1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e9d984413b99de18</Assembly>
+    <FullClassName>MyItemTemplateVSIX1.MyItemWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

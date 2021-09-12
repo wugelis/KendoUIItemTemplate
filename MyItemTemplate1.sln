@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26127.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Item Templates", "Item Templates", "{697AD58F-A967-46A8-BD12-D3514257A562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VSIX", "VSIX", "{90697313-A524-4E93-B48D-40963E8E0CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyArchitectGridUI", "EasyArchitectGridUI\EasyArchitectGridUI.csproj", "{F04BA390-B921-4004-9599-80D82706DB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyItemTemplateVSIX1", "MyItemTemplateVSIX1\MyItemTemplateVSIX1.csproj", "{F6B6A383-6214-4452-B216-E1D194E7116E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{8505C655-EB3D-4F84-8F13-876116703C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{F390EE55-4C70-443A-AEE4-F67D42F03DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{68D49603-CA5A-47F8-8F8A-5E04B91F0963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropDownListView", "DropDownListView\DropDownListView.csproj", "{7543290E-53A4-4053-8642-EB845B49E9CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePickerView", "DatePickerView\DatePickerView.csproj", "{95402BCF-9469-48C0-A52B-77BB3FA39F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSelectView", "MultiSelectView\MultiSelectView.csproj", "{9152B352-4B9B-4E25-9D7E-6050D35BE35F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04BA390-B921-4004-9599-80D82706DB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04BA390-B921-4004-9599-80D82706DB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04BA390-B921-4004-9599-80D82706DB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04BA390-B921-4004-9599-80D82706DB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B6A383-6214-4452-B216-E1D194E7116E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B6A383-6214-4452-B216-E1D194E7116E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B6A383-6214-4452-B216-E1D194E7116E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B6A383-6214-4452-B216-E1D194E7116E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F390EE55-4C70-443A-AEE4-F67D42F03DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F390EE55-4C70-443A-AEE4-F67D42F03DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F390EE55-4C70-443A-AEE4-F67D42F03DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F390EE55-4C70-443A-AEE4-F67D42F03DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D49603-CA5A-47F8-8F8A-5E04B91F0963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D49603-CA5A-47F8-8F8A-5E04B91F0963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D49603-CA5A-47F8-8F8A-5E04B91F0963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D49603-CA5A-47F8-8F8A-5E04B91F0963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7543290E-53A4-4053-8642-EB845B49E9CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7543290E-53A4-4053-8642-EB845B49E9CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7543290E-53A4-4053-8642-EB845B49E9CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7543290E-53A4-4053-8642-EB845B49E9CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95402BCF-9469-48C0-A52B-77BB3FA39F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95402BCF-9469-48C0-A52B-77BB3FA39F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95402BCF-9469-48C0-A52B-77BB3FA39F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95402BCF-9469-48C0-A52B-77BB3FA39F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9152B352-4B9B-4E25-9D7E-6050D35BE35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9152B352-4B9B-4E25-9D7E-6050D35BE35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9152B352-4B9B-4E25-9D7E-6050D35BE35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9152B352-4B9B-4E25-9D7E-6050D35BE35F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F04BA390-B921-4004-9599-80D82706DB28} = {697AD58F-A967-46A8-BD12-D3514257A562}
+		{F6B6A383-6214-4452-B216-E1D194E7116E} = {90697313-A524-4E93-B48D-40963E8E0CBB}
+		{F390EE55-4C70-443A-AEE4-F67D42F03DA6} = {8505C655-EB3D-4F84-8F13-876116703C1B}
+		{68D49603-CA5A-47F8-8F8A-5E04B91F0963} = {8505C655-EB3D-4F84-8F13-876116703C1B}
+		{7543290E-53A4-4053-8642-EB845B49E9CB} = {697AD58F-A967-46A8-BD12-D3514257A562}
+		{95402BCF-9469-48C0-A52B-77BB3FA39F21} = {697AD58F-A967-46A8-BD12-D3514257A562}
+		{9152B352-4B9B-4E25-9D7E-6050D35BE35F} = {697AD58F-A967-46A8-BD12-D3514257A562}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6397B817-050C-48FB-94EF-11D7C6C3F811}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gelistfs.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EasyArchitectGridUI\\EasyArchitectGridUI.csproj
+		SccProjectTopLevelParentUniqueName1 = MyItemTemplate1.sln
+		SccProjectName1 = EasyArchitectGridUI
+		SccLocalPath1 = EasyArchitectGridUI
+		SccProjectUniqueName2 = MyItemTemplateVSIX1\\MyItemTemplateVSIX1.csproj
+		SccProjectTopLevelParentUniqueName2 = MyItemTemplate1.sln
+		SccProjectName2 = MyItemTemplateVSIX1
+		SccLocalPath2 = MyItemTemplateVSIX1
+		SccProjectUniqueName3 = WindowsFormsApp1\\WindowsFormsApp1.csproj
+		SccProjectTopLevelParentUniqueName3 = MyItemTemplate1.sln
+		SccProjectName3 = WindowsFormsApp1
+		SccLocalPath3 = WindowsFormsApp1
+		SccProjectUniqueName4 = WpfApp1\\WpfApp1.csproj
+		SccProjectTopLevelParentUniqueName4 = MyItemTemplate1.sln
+		SccProjectName4 = WpfApp1
+		SccLocalPath4 = WpfApp1
+		SccProjectUniqueName5 = DropDownListView\\DropDownListView.csproj
+		SccProjectTopLevelParentUniqueName5 = MyItemTemplate1.sln
+		SccProjectName5 = DropDownListView
+		SccLocalPath5 = DropDownListView
+		SccProjectUniqueName6 = DatePickerView\\DatePickerView.csproj
+		SccProjectTopLevelParentUniqueName6 = MyItemTemplate1.sln
+		SccProjectName6 = DatePickerView
+		SccLocalPath6 = DatePickerView
+		SccProjectUniqueName7 = MultiSelectView\\MultiSelectView.csproj
+		SccProjectTopLevelParentUniqueName7 = MyItemTemplate1.sln
+		SccProjectName7 = MultiSelectView
+		SccLocalPath7 = MultiSelectView
+	EndGlobalSection
+EndGlobal
